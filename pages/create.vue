@@ -1,6 +1,6 @@
 <template lang="pug">
-#home
-  h1 Events 
+#create
+  h1 Create an event
 </template>
 
 <script>
