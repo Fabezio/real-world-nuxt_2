@@ -1,10 +1,16 @@
 <template lang="pug">
 #home
-  h1 Events 
+  h1 Events
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Events Listing '
+    }
+  }
+}
 </script>
 
 <style scoped></style>

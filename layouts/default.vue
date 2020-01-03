@@ -2,14 +2,31 @@
   div#app
     NavBar
     nuxt
+    Footer
 
 </template>
 
 <script>
-import NavBar from '~/components/NavBar.vue'
+import NavBar from '~/components/NavBar'
+import Footer from '~/components/Footer.vue'
+
 export default {
   components: {
-    NavBar
+    NavBar,
+    Footer
+  },
+  head() {
+    return {
+      titleTemplate: 'Real World | %s',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Where you can find all events taking place in your neighborhood.'
+        }
+      ]
+    }
   }
 }
 </script>
