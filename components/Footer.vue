@@ -4,7 +4,7 @@
       p
       | &copy; 2019 |
       i.fa.fa-value(aria-hidden='true') &nbsp;
-      a(href='https://github.com/Fabezio/real-world-nuxt_2.git' title='my code version')
+      a(href='https://github.com/Fabezio/real-world-nuxt_2.git' title='my code version' target='_blank')
         button.button View Source
 </template>
 

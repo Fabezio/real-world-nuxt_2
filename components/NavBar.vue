@@ -4,7 +4,7 @@
     nav
       nuxt-link.nav-link(to='/') List
       span  | 
-      nuxt-link.nav-link(to='/create') Create
+      nuxt-link.nav-link(to='/event/create') Create
 </template>
 
 <script>
